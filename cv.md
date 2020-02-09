@@ -21,3 +21,17 @@ I want to become a front-end devolaper and constantly develop and improve my ski
 ```javascript
    alert( 'Hello, world!' );
 ```
+
+### Experience 
+ Website:
+ - [mburo.by](https://mburo.by/)
+ - [rckontinent.by](http://rckontinent.by/)
+
+### Education
+ - Francisk Skorina Gomel State University
+ - Codecademy: [Introduction to HTML](https://www.codecademy.com/learn/learn-html)
+ - Codecademy: [Learn CSS](https://www.codecademy.com/learn/learn-css)
+ - [HTML Academy](https://htmlacademy.ru/)
+
+### English 
+ - Level: Pre-Intermediate (A2)
