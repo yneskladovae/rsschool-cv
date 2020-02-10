@@ -1,0 +1,154 @@
+* { 
+    margin:0; padding:0; 
+    box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+
+section.wrpper {
+    max-width: 780px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px 1px #d4d4d4;
+}
+
+.personal_info {
+    display: flex;
+}
+
+.personal_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #b1d690;
+    padding: 15px;
+}
+
+section.about_myself {
+    display: flex;
+/*    align-items: center;*/
+    justify-content: space-around;
+}
+
+.border_grey {
+    background: gray;
+    border-radius: 10px;
+}
+
+.border {
+    background: #edeae8;
+    border-radius: 10px;
+}
+
+.work_exp p {
+    margin: 5px 0px 5px 0px;
+}
+.photo img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 230px;
+    transition: all .5s ease;
+}
+
+.photo img:hover {
+transform: scale(1.1);
+}
+
+h3 {
+    margin-top: 30px;
+    border-bottom: 3px solid #b1d690;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.left_side {
+    padding: 15px;
+    width: 63%;
+}
+
+.right_side {
+    padding: 15px;
+    width: 37%;
+}
+
+.hobbie p {
+    text-align: center;
+}
+
+.hobbie img {
+    display: flex;
+}
+
+.hobbie {
+    display: flex;
+    justify-content: space-around;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.language p {
+    margin: 5px 0px 5px 0px;
+}
+
+.skills p {
+    margin: 5px 0px 5px 0px;
+}
+
+li {
+    margin: 15px 0px;
+}
+
+.contacts a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .personal_info { 
+        display: block;
+        padding: 15px;
+        text-align: center;
+       }
+   }
+
+@media screen and (max-width: 600px) {
+    h3 { 
+        font-size: 16px;
+       }
+   }
+
+@media screen and (max-width: 600px) {
+section.about_myself {
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+                    }
+}    
+
+@media screen and (max-width: 600px) {  
+    .left_side {
+    padding-bottom: 0px;
+    width: 100%;
+                }
+} 
+
+@media screen and (max-width: 600px) {  
+    .right_side {
+    padding-top: 0px;
+    width: 100%;
+                }
+}
